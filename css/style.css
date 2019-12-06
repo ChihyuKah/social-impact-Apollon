@@ -1,7 +1,3 @@
-body {
-  background-color: lime;
-}
-
 .navbar {
   background-color: #534741;
   height: 60px;
@@ -29,6 +25,19 @@ body {
 
 .char {
   background-image: url(images/charcoal-background-6.png);
+}
+
+.Formheight {
+  padding-bottom: 18px;
+}
+
+.reddot {
+  color: red;
+}
+
+.resize {
+  width: 60px;
+  height: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
