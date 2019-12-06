@@ -43,12 +43,12 @@
 
 <!--carousel mech-->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" >
+<div id="Indicators" class="carousel slide" data-ride="carousel" data-interval="7000" >
     <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="Indicators" data-slide-to="0" class="active"></li>
+        <li data-target="Indicators" data-slide-to="1"></li>
+        <li data-target="Indicators" data-slide-to="2"></li>
+        <li data-target="Indicators" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner d-block">
         <div class="carousel-item active">
@@ -64,11 +64,11 @@
             <img class="d-block w-100 vh-100" src="css/images/sfeerbeeld3.png" alt="Fourth slide">
         </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#Indicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#Indicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
@@ -76,7 +76,7 @@
 
 <!--Introduction-->
 <div class="container-fluid bklg">
-    <div class="col-sm-12 text-center">
+    <div class="col-sm-12 text-center pt-4">
         <h4 class="pt-5">Apollon Grill</h4>
         <p class="mx-auto col-lg-6 pb-5">
             Elke dag ontvangen wij U in een prachtige authentieke omgeving, voor een snelle hap of
@@ -87,7 +87,54 @@
         </p>
     </div>
 </div>
+<!--Middle image-->
+<img src="css/images/meat2.png" class="img-fluid  photoheight ">
+<!--<img src="css/images/charcoal-black-background-6.jpg">-->
 
+<div class="container-fluid char">
+        <form method="post" action="//submit.form" onSubmit="return validateForm();">
+            <div style="width: 400px;">
+            </div>
+            <div style="padding-bottom: 18px;font-size : 24px;">Table Reservation</div>
+            <div style="padding-bottom: 18px;font-size : 18px;">We would be glad to reserve a table for you at our restaurant!</div>
+            <div style="padding-bottom: 18px;">Name<span style="color: red;"> *</span><br/>
+                <input type="text" id="data_3" name="data_3" style="width : 400px;" class="form-control"/>
+            </div>
+            <div style="padding-bottom: 18px;">Phone<br/>
+                <input type="text" id="data_4" name="data_4" style="width : 400px;" class="form-control"/>
+            </div>
+            <div style="padding-bottom: 18px;">Email<br/>
+                <input type="text" id="data_5" name="data_5" style="width : 400px;" class="form-control"/>
+            </div>
+            <div style="padding-bottom: 18px;">Date<span style="color: red;"> *</span><br/>
+                <input type="text" id="data_6" name="data_6" style="width : 250px;" class="form-control"/>
+            </div>
+
+            <div style="padding-bottom: 18px;">Time<span style="color: red;"> *</span><br/>
+                <input type="text" id="data_7" name="data_7" style="width : 250px;" class="form-control"/>
+            </div>
+            <div style="padding-bottom: 18px;">Number of Attendees<span style="color: red;"> *</span><br/>
+                <select id="data_8" name="data_8" style="width : 250px;" class="form-control"><option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>10+ (Specify in Comments)</option>
+                </select>
+            </div>
+            <div style="padding-bottom: 18px;">Comments / Additional Requests<br/>
+                <textarea id="data_9" false name="data_9" style="width : 400px;" rows="6" class="form-control"></textarea>
+            </div>
+            <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
+
+</div>
+
+</form>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
