@@ -91,47 +91,58 @@
 <img src="css/images/meat2.png" class="img-fluid  photoheight ">
 <!--<img src="css/images/charcoal-black-background-6.jpg">-->
 
-<div class="container-fluid char">
-        <form method="post" action="//submit.form" onSubmit="return validateForm();">
-            <div style="width: 400px;">
-            </div>
-            <div style="padding-bottom: 18px;font-size : 24px;">Table Reservation</div>
-            <div style="padding-bottom: 18px;font-size : 18px;">We would be glad to reserve a table for you at our restaurant!</div>
-            <div style="padding-bottom: 18px;">Name<span style="color: red;"> *</span><br/>
-                <input type="text" id="data_3" name="data_3" style="width : 400px;" class="form-control"/>
-            </div>
-            <div style="padding-bottom: 18px;">Phone<br/>
-                <input type="text" id="data_4" name="data_4" style="width : 400px;" class="form-control"/>
-            </div>
-            <div style="padding-bottom: 18px;">Email<br/>
-                <input type="text" id="data_5" name="data_5" style="width : 400px;" class="form-control"/>
-            </div>
-            <div style="padding-bottom: 18px;">Date<span style="color: red;"> *</span><br/>
-                <input type="text" id="data_6" name="data_6" style="width : 250px;" class="form-control"/>
-            </div>
+<div class="container-fluid char col-lg-12 text-white vh-100">
+    <div class="row">
+        <div class="col-lg-6 ">
+            <form class=" float-right w-50 pt-5  ">
 
-            <div style="padding-bottom: 18px;">Time<span style="color: red;"> *</span><br/>
-                <input type="text" id="data_7" name="data_7" style="width : 250px;" class="form-control"/>
-            </div>
-            <div style="padding-bottom: 18px;">Number of Attendees<span style="color: red;"> *</span><br/>
-                <select id="data_8" name="data_8" style="width : 250px;" class="form-control"><option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>10+ (Specify in Comments)</option>
-                </select>
-            </div>
-            <div style="padding-bottom: 18px;">Comments / Additional Requests<br/>
-                <textarea id="data_9" false name="data_9" style="width : 400px;" rows="6" class="form-control"></textarea>
-            </div>
-            <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
 
+    <!--            <div class="Formheight">Reservering</div>-->
+                <h1>Reservering</h1>
+              <h6>Voor reserveringen, inlichtingen of andere zaken,
+                  gebruik ons contactformulier</h6>
+
+                <div class="Formheight">Naam<span class="reddot"> *</span>
+                    <input type="text" class="form-control"/>
+                </div>
+
+                <div class="Formheight">Telefoon<span class="reddot"> *</span>
+                    <input type="text" class="form-control"/>
+                </div>
+                <div class="Formheight">Email<br/>
+                    <input type="text" class="form-control"/>
+                </div>
+                <div class="Formheight">Datum<span class="reddot"> *</span>
+                    <input type="text" class="form-control"/>
+                </div>
+
+                <div class="Formheight">Tijd<span class="reddot"> *</span>
+                    <input type="text" class="form-control"/>
+                </div>
+                <div class="Formheight">Aantal personen<span class="reddot"> *</span>
+                    <select class="form-control"/>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>10+</option>
+                    </select>
+                    <br>
+                </div>
+                <input class="btn btn-light" type="submit" value="Submit">
+            </form>
+
+        </div>
+        <div class="col-lg-6 text-white pt-5 mt-5">
+            <p class="w-50 mt-5 pt-4"> Reserveren is niet verplicht maar wel aangeraden om er zeker van te zijn dat er een tafel voor u klaarstaat. Indien u wijzigingen wilt aanbrengen bij uw reservatie, gelieve 24u op voorhand telefonisch contact op te nemen met ons.</p>
+        </div>
+    </div>
 </div>
 
 </form>
